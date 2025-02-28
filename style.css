@@ -1,0 +1,215 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navbar{
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.nav{
+    font-size: 30px;
+    gap: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 25px;
+}
+
+.navbar button{
+    height: 40px;
+    border-radius: 10px;
+    font-size: medium;
+    color: white;
+    background-color: #F47424;
+    border: 2px solid white;
+}
+
+.content{
+     display: flex;
+     justify-content: space-between;
+     
+}
+
+.text{
+    height: 675px;
+    width: 60%;
+    padding-left: 30px;
+   
+}
+
+.text h2{
+    font-size: 60px;
+    line-height: 75px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text span{
+    color: #F9B744;
+}
+
+.text p{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+
+.text button{
+    height: 40px;
+    border-radius: 10px;
+    font-size: medium;
+    color: white;
+    background-color: #F38374;
+    border: 2px solid white;
+}
+
+.home-sci{
+    position: absolute;
+    bottom: 4rem;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-sci a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: .2rem solid black;
+    border-radius: 50%;
+    font-size: 20px;
+    color: black;
+    z-index: 1;
+    /* overflow: hidden; */
+}
+
+.pic{
+    height: 590px;
+    background-color: cover;
+    padding-top: 80px;
+    
+}
+
+
+/* sign in page */
+
+.loginpage{
+    height: 750px;
+    background-image: url(https://wallpaperaccess.com/full/1567736.png);
+    background-size: cover;
+
+}
+
+
+.loginbox{
+    height: 500px;
+    width: 400px;
+    border: 2px solid transparent;   
+    margin-left: 500px;
+    align-items: center;
+    background-image: none;
+}
+
+.login-content{
+    margin-top: 50px;
+    font-size: medium;
+    text-align: center;
+
+}
+
+
+.login-input{
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+    margin-top: 40px;
+}
+
+.login-button1{
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(204, 128, 53);
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+.login-button2{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.login-button2 a{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(237, 230, 219);
+} 
+
+.login-checkbox{
+    border: 2px solid black;
+    background-color: rgb(237, 230, 219);
+}
+
+.login-content P{
+    font-size: 15px;
+    color: white;
+}
+
+.login-account a{
+    font-size: 18px;
+    color: black;
+
+}
+
+
+.login-img{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;  
+      
+}
+
+.login-img1{
+    height: 30px;
+    width: 60px;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.Jy6nxW7k0Kc9jmJT423JAwHaEK&pid=Api&P=0&h=180);
+    background-size: cover;
+    border: 2px solid black;    
+}
+.login-img2{
+    height: 30px;
+    width: 60px;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.qg5dlZmf6M068H8dW2DK6AHaDq&pid=Api&P=0&h=180);
+    background-size: cover;
+    border: 2px solid black;
+}
+.login-img3{
+    height: 30px;
+    width: 60px;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.TqcnDevHeoB21zEWeNC8AwHaE8&pid=Api&P=0&h=180);
+    background-size: cover;
+    border: 2px solid black;
+}
